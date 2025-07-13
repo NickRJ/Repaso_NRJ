@@ -1,0 +1,17 @@
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Ingresa tu nombre:  ");
+        string nombre = Console.ReadLine();
+
+        Console.Write("Ingresa tu año de nacimiento:  ");
+        int anioNacimiento = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Ingresa tu edad en meses: ");
+        int edadMeses = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine($"Hola {nombre}, naciste en {anioNacimiento} y tienes {edadMeses} meses.");
+    }
+}
