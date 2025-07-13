@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Ingresa tu año de nacimiento: ");
+        int anioNacimiento = Convert.ToInt32(Console.ReadLine());
+
+        if (anioNacimiento < 2000)
+        {
+            Console.WriteLine("Naciste antes del segundo milenio.");
+        }
+        else if (anioNacimiento < 2018)
+        {
+            Console.WriteLine("Naciste antes de la pandemia.");
+        }
+        else
+        {
+            Console.WriteLine("Naciste después de la pandemia.");
+        }
+    }
+}
