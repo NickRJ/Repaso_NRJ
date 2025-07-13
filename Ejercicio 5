@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    static void main(string[] args)
+    {
+        string claveSecreta = "1234";
+        int intentos = 0;
+
+        do
+        {
+            Console.Write("Ingresa la contraseña: ");
+            string intento = Console.ReadLine();
+
+            if (intento == claveSecreta)
+            {
+                Console.WriteLine("Contraseña correcta.");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Contraseña incorrecta.");
+            }
+
+            intentos++;
+
+        } while (intentos < 3);
+    }
+}
