@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static void Main (string[] args)
+    {
+        // Ejercicio 1: Declarar Variables, Por Nicholas R Jasso
+        string nombre = "Nicholas R. Jasso";
+        int anioNacimiento = 2002;
+        int edadmeses = 23*12;
+
+        Console.WriteLine($"Nombre: {nombre}");
+        Console.WriteLine($"Año de nacimiento: {anioNacimiento}");
+        Console.WriteLine($"Edad en meses: {edadmeses}");
+
+        Console.WriteLine("listo");
+    }
+}
