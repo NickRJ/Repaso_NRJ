@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Ingresa tu edad en años: ");
+        int edad = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i < edad; i += 5)
+        {
+            Console.WriteLine($"Lustro: {i / 5}");
+        }
+    }
+}
